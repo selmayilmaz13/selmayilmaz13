@@ -8,26 +8,31 @@ Predictive modeling, recommender systems, and end-to-end ML pipelines on real-wo
 
 ## What I do
 
+Economics background from Bocconi, data science master's from Northeastern. 
+I work across the full stack — data, models, and deployment.
+
 **Machine Learning & Predictive Modeling**
-- End-to-end ML pipelines from feature engineering to deployment
-- Classification, regression, and clustering on large real-world datasets
-- Model evaluation, interpretability, and performance benchmarking
+- Building and evaluating ML pipelines on real-world tabular and time series data
+- Working with imbalanced datasets, rare events, and small samples
+- Making models interpretable with SHAP and feature analysis
 
 **Data Analysis & Visualization**
-- Exploratory data analysis and statistical pattern discovery
-- Time series analysis and forecasting (SARIMAX, XGBoost)
-- Interactive dashboards and data storytelling
+- Finding patterns in messy data and turning them into clear insights
+- Time series forecasting with SARIMAX and XGBoost
+- Building dashboards and visualizations people can actually use
 
 **Data Engineering & Systems**
-- Cloud-based pipelines using AWS (Lambda, API Gateway, S3)
-- Database design and query optimization (MySQL, PostgreSQL, SQLite)
-- Production-style deployments with Streamlit
-
+- Building cloud pipelines on AWS (S3, Lambda, API Gateway)
+- Writing clean, modular Python code that others can build on
+- Deploying models as REST APIs and web applications
 ---
 
 ## Featured Projects
 
 - **[Job Automation Insights](https://github.com/selmayilmaz13/job-automation-insights)** — End-to-end automation risk estimator combining a Random Forest model, LLM-based estimate, and rule-based baseline. Deployed as an interactive Streamlit app with AWS Lambda backend.
+  
+- **[Currency Crisis Early Warning System](https://github.com/selmayilmaz13/currency-crisis-early-warning)** — ML pipeline predicting currency crises in 30 emerging markets using World Bank and IMF data. Logistic Regression with AUC 0.909, SHAP explainability, and AWS S3 + Lambda backend.
+
 
 - **[Chicago Crime Analysis](https://github.com/selmayilmaz13/chicago-crime-analysis)** — Temporal and spatial analysis of 1M+ crime records. Built SARIMAX and XGBoost forecasting models and applied DBSCAN clustering to detect 300+ crime hotspots.
 
@@ -40,7 +45,7 @@ Predictive modeling, recommender systems, and end-to-end ML pipelines on real-wo
 ## Tech Stack
 
 **Languages:** Python, R, SQL  
-**ML & Modeling:** scikit-learn, PyTorch, TensorFlow, XGBoost, SVD, SARIMAX  
+**ML & Modeling:** scikit-learn, PyTorch, TensorFlow, XGBoost, LightGBM, SVD, SARIMAX  
 **Data:** pandas, NumPy, SciPy, matplotlib, seaborn, ggplot2  
 **Cloud & Tools:** AWS (Lambda, API Gateway, S3), Git, Streamlit, Tableau  
 **Databases:** MySQL, PostgreSQL, SQLite  
