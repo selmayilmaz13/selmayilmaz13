@@ -13,6 +13,7 @@ I work across the full stack — data, models, and deployment.
 
 **Machine Learning & Predictive Modeling**
 - Building and evaluating ML pipelines on real-world tabular and time series data
+- Graph Neural Networks (GraphSAGE, HeteroConv) for relational fraud detection
 - Working with imbalanced datasets, rare events, and small samples
 - Making models interpretable with SHAP and feature analysis
 
@@ -25,9 +26,13 @@ I work across the full stack — data, models, and deployment.
 - Building cloud pipelines on AWS (S3, Lambda, API Gateway)
 - Writing clean, modular Python code that others can build on
 - Deploying models as REST APIs and web applications
+
 ---
 
 ## Featured Projects
+
+- **[Fraud Detection with Graph Neural Networks](https://github.com/selmayilmaz13/fraud-detection-gnn)** — End-to-end fraud detection system comparing XGBoost against three GNN architectures on 590K transactions. XGBoost achieves AUC 0.937. Deployed as a REST API on AWS Lambda with a live web dashboard.
+
 
 - **[Job Automation Insights](https://github.com/selmayilmaz13/job-automation-insights)** — End-to-end automation risk estimator combining a Random Forest model, LLM-based estimate, and rule-based baseline. Deployed as an interactive Streamlit app with AWS Lambda backend.
   
